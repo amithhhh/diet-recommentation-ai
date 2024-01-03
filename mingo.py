@@ -11,7 +11,7 @@ label_encoder = {
 back_to_label = {v:k for k,v in label_encoder.items()}
 back_to_label
 
-model = load('model\diet_recommentation.joblib')
+model = load('model\\final_model.joblib')
 
 def prediction(age,w,h,a):
     wthr = a/h
