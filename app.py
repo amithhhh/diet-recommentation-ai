@@ -1,9 +1,9 @@
 import gradio as gr
 from joblib import load
-from mingo import label_encoder
-from mingo import back_to_label
-from mingo import model
-from mingo import prediction
+from recommentation import label_encoder
+from recommentation import back_to_label
+from recommentation import model
+from recommentation import prediction
 
 
 demo = gr.Interface(
